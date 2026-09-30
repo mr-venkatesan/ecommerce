@@ -1,0 +1,43 @@
+# Flutter / Dart / Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Generated files
+*.freezed.dart
+*.g.dart
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+# .vscode/
+
+# Miscellaneous
+*.log
+*.pyc
+*.swp
+.DS_Store
+.history/
+.build/
+.buildlog/
+.svn/
+.atom/
+migrate_working_dir/
+
+# Coverage / test output
+*.lcov
+test-results/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
